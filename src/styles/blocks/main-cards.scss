@@ -1,17 +1,14 @@
 .main {
-  display: flex;
-  justify-content: center;
+  padding: 50px 40px;
 
   &__cards {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 1024px;
-    margin-top: 25px;
-  }
 
-  &__card {
-    margin: 25px 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 50px;
+    grid-column-gap: 48px;
+
   }
 }
