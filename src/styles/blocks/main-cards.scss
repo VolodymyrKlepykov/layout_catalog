@@ -2,13 +2,11 @@
   padding: 50px 40px;
 
   &__cards {
-
     display: grid;
     grid-template-columns: repeat(4, 200px);
     justify-content: center;
     align-items: center;
     grid-row-gap: 50px;
     grid-column-gap: 48px;
-
   }
 }
