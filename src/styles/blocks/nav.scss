@@ -25,6 +25,7 @@
     color: #000;
 
     &:hover {
+      transition: color 0.4s;
       color: $color;
     }
   }
