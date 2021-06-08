@@ -23,9 +23,9 @@
     padding: 23px 0;
     text-decoration: none;
     color: #000;
+    transition: color 0.4s;
 
     &:hover {
-      transition: color 0.4s;
       color: $color;
     }
   }

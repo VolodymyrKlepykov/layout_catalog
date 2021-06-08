@@ -17,13 +17,13 @@
   height: 40px;
   width: 100%;
   color: #000;
+  transition: background-color 0.4s, color 0.4s;
+  
   &:hover {
-    transition: background-color 0.4s;
     background: $color-white;
     border: 1px solid $color;
   }
   &:hover .basket__link {
     color: $color;
-    transition: color 0.4s;
   }
 }
